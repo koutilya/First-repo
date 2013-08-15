@@ -38,7 +38,7 @@ for k in range(1,91):
        file1.write("phone numbers : \n")
        tag2=tag1.contents[j].string
        print("  %s"%tag2)
-       file1.write("  %s"%tag2 )
+       file1.write(" \t\t %s"%tag2 )
 
        j=j+2
        tag2=tag1.contents[j].string
